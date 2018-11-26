@@ -55,6 +55,10 @@ aside ul{
     list-style-type: none;
 }
 
+aside li{
+    display: inline-block;
+}
+
 footer{
     background-color: #000000;
     color: #F2FFFC;

@@ -15,6 +15,7 @@ h1, h2{
     padding: 25px;
     border-bottom: 10px solid #000000;
     font-size: 60px;
+    text-transform: uppercase;
 }
 
 h2{
@@ -49,6 +50,7 @@ p{
 aside h1{
     font-size: 30px;
     margin-bottom: 25px;
+    text-transform: uppercase;
 }
 
 aside ul{
@@ -57,6 +59,14 @@ aside ul{
 
 .icones-redes-sociais li{
     display: inline-block;
+    margin-top: 10px;
+}
+
+.icones-redes-sociais a{
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    color: transparent;
 }
 
 #rodape-pagina{
@@ -68,6 +78,19 @@ aside ul{
 nav a{
     color: inherit;
     font-family: "Open Sans Condensed", sans-serif;
+    text-transform: lowercase;
+}
+
+.github{
+    background-image: url(../images/github.png);
+}
+
+.twitter{
+    background-image: url(../images/twitter.png);
+}
+
+.linkedin{
+    background-image: url(../images/linkedin.png);
 }
 
 .container{

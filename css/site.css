@@ -20,6 +20,7 @@ h1, h2{
 
 h2{
     font-size: 30px;
+    clear: both;
 }
 
 main a{
@@ -45,6 +46,7 @@ p{
     color: #F2FFFC;
     padding: 20px;
     text-align: center;
+    
 }
 
 aside h1{
@@ -73,6 +75,7 @@ aside ul{
     background-color: #000000;
     color: #F2FFFC;
     padding: 20px;
+    clear: both;
 }
 
 nav a{
@@ -121,4 +124,30 @@ em{
     text-align: center;
     background-color: #E6E7E8;
     border-radius: 10px;
+}
+
+.petro{
+    float: left; 
+}
+
+.fiat{
+    float: right;
+}
+
+cite{
+    font-style: italic;
+    float: right;
+}
+
+.foto-eu, .navegacao-site{
+    float: right;
+    width: 15%;
+    box-sizing: border-box;
+    border-left: 10px solid black;
+    border-bottom: 10px solid black;
+}
+
+main{
+    float: left;
+    width: 85%;
 }

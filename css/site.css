@@ -46,6 +46,9 @@ p{
     color: #F2FFFC;
     padding: 20px;
     text-align: center;
+    width: 15%;
+    position: relative;
+    top: 310px;
     
 }
 
@@ -76,6 +79,9 @@ aside ul{
     color: #F2FFFC;
     padding: 20px;
     clear: both;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
 }
 
 nav a{
@@ -100,6 +106,7 @@ nav a{
     width: 720px;
     margin: auto;
     padding: 30px 0;
+    padding-bottom: 80px;
 }
 
 strong{
@@ -139,13 +146,19 @@ cite{
     float: right;
 }
 
-.foto-eu, .navegacao-site{
+.minha-foto, .navegacao-site{
     float: right;
-    width: 15%;
     box-sizing: border-box;
     border-left: 10px solid black;
     border-bottom: 10px solid black;
 }
+
+.minha-foto{
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
 
 main{
     float: left;
